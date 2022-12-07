@@ -11,6 +11,7 @@ let opts = {
         number: "1.12.2",
         type: "release",
     },
+    forge: getAppDataPath('.eronix/forge.jar'),
     memory: {
         max: `4G`,
         min: "1G"
