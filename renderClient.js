@@ -1,5 +1,6 @@
 const { Client, Authenticator } = require('minecraft-launcher-core');
 const launcher = new Client();
+const getAppDataPath = require("appdata-path");
 const token = "24515635345EXC152456";
 
 let opts = {
