@@ -43,3 +43,9 @@ body {background: #101010;}
 .main-btn button:hover {background: #30303050;}
 #closeBtn:hover {background: #ff000050;}
 .main-btn button i {cursor: pointer;font-size: 10px;color: #ffffff;margin: auto;}
+
+#playBtn {
+    position: fixed;
+    top: 20vh;
+    left: 10vh;
+}
