@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+#consoleModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.console {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #2b2b2bce;
+    width: 100%;
+    height: 100vh;
+}
+
+.console .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.main-console {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background: #101010;
+    padding: 10px 10px;
+    border-radius: 6px;
+    width: 850px;
+    height: 570px;
+    margin: auto;
+}
+
+.header-console {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, .025);
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.console-title {
+    font-family: 'Sen', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #e6ba6a;
+    margin-left: 20px;
+    user-select: none;
+    margin-bottom: 15px;
+}
+
+.console-closer {
+    width: 37px;
+    margin-right: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.console-closer button {
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.body-console {
+    float: left;
+    height: calc(100% - 70px);
+    width: 100%;
+    background: #0c0c0c;
+    margin-top: 0;
+    margin-left: 0;
+    border-radius: 6px;
+}
+
+
+.scrollbar {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    overflow-y: scroll;
+}
+
+#scrollConsole::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+#scrollConsole::-webkit-scrollbar {
+    width: 6px;
+    height: 0px;
+    background-color: transparent;
+}
+
+#scrollConsole::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #555;
+}
+
+#scrollConsole p {
+    margin-left: 2.5%;
+    width: 95%;
+    color: #fff;
+    font-family: 'Sen', sans-serif;
+    font-size: .9rem;
+}

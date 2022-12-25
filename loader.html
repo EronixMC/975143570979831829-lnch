@@ -1,0 +1,38 @@
+<html lang="fr">
+
+<head>
+    <title>Eronix</title>
+    <meta data-n-head="ssr" charset="utf-8">
+    <meta data-n-head="ssr" name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="./src/css/window.css">
+    <link rel="stylesheet" href="./src/css/loader.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+    <script defer src="./src/js/windowRender.js"></script>
+</head>
+
+<body>
+    <div class="window">
+        <div class="container">
+            <div class="window-move"></div>
+            <div class="window-button">
+                <button class="window-button" id="minimizeBtn"><i class="fa-light fa-minus"></i></button>
+                <button class="window-button" id="maximizeBtn"><i class="fa-light fa-square"></i></button>
+                <button class="window-button closed" id="closeBtn"><i class="fa-light fa-xmark-large"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="loader-circler">
+                    <div class="loader-outter"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        setTimeout(() => {
+            window.location = "./app.html";
+        }, 1600);
+    </script>
+</body>
+
+</html>

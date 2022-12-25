@@ -1,0 +1,92 @@
+.auth {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #080808ce;
+    width: 100%;
+    height: 100vh;
+}
+
+.auth .container  {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.main-auth {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background: #101010;
+    padding: 20px 20px;
+    border-radius: 6px;
+    width: 400px;
+    height: auto;
+    margin: auto;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#form h1 {
+    color: #e6ba6a;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-family: 'Sen', sans-serif;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+#form input {
+    font-family: 'Sen', sans-serif;
+    padding: 9px 20px;
+    width: 100%;
+    background: #1d1d1d;
+    border: 1px solid #ffffff17;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form input:focus {
+    border: 1px solid #e6ba6a;
+}
+
+#form button {
+    font-family: 'Sen', sans-serif;
+    padding: 9px 20px;
+    width: 100%;
+    background: #e6ba6a;
+    transition: .5s ease-out;
+    border: 1px solid #ffffff17;
+    border-radius: 5px;
+    outline: none;
+    color: #414141;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#form button:hover {
+    background: #9b7b40;
+}
+
+/*
+<div id="form">
+<h1>CONNEXION</h1>
+<input id="email" type="text" class="input" required placeholder="Email" />
+<input id="password" type="password" class="input" required placeholder="Mot de passe" />
+<button class="loginBtn" onclick="login()">Se connecter</button>
+</div>
+*/
